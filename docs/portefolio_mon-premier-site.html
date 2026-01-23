@@ -8,68 +8,77 @@
 </head>
 <body class="port-body">
     <section class="port-section1">
-            <h1 class="port-h1">La Maison Perchée Project - Agenda Button</h1>
+            <h1 class="port-h1">La Maison Perchée Project - AgendaButton</h1>
     </section>
     <section class="port-section">
             <div class="port-image">
-                <img src="img/screen_agendabutton1.png" >
-                <img src="img/screen_agendabutton2.png">
-                <img src="img/screen_agendabutton3.png">
+                <video class="port-video" src="video/cursorful-video-1769172792412.mp4" autoplay loop></video>
             </div> 
-            <div>
+            <div class="cards">
+                <div class="card1">
 
-<h3><strong>Un composant d'interaction calendaire intelligent, performant et entièrement thématisé.</strong></h3>
+                    <h3><strong>Un composant d'interaction calendaire intelligent</strong></h3>
 
+                    <p><i>dates</i>: 2 semaines || 1/12/2025 - 12/12/2025</p>
 
-<p>AgendaButton est un projet d'interface utilisateur (UI) développé avec **React** et **Next.js**. L'objectif était de créer un bouton d'appel à l'action (CTA) sophistiqué pour la prise de rendez-vous, intégré dans un environnement de design cohérent et moderne.
-    <br>
-Ce projet met l'accent sur l'expérience utilisateur (UX) grâce à une thématisation poussée et une architecture logicielle robuste capable de gérer les contraintes du rendu côté serveur (SSR).</p>
+                    <p>AgendaButton est un projet d'interface utilisateur (UI) développé avec <strong>React</strong> et <strong>Next.js</strong>. L'objectif était de créer un bouton d'appel à l'action sophistiqué pour la prise de rendez-vous, intégré dans un environnement de design cohérent et moderne.<br>
+                    Ce projet met l'accent sur l'expérience utilisateur (UX) grâce à une thématisation poussée et une architecture logicielle robuste capable de gérer les contraintes du rendu côté serveur.</p>
+                </div>
+                <div class="card2">
+                    <p><i>### Fonctionnalités Clés</i>
+                        <ul>
+                            <li><strong>Design System Personnalisé :</strong>Intégration complète de <strong>Chakra UI</strong> avec une charte graphique sur mesure (IBM Plex Sans pour la lisibilité technique et Alegreya pour l'élégance).</li> 
+                            <li><strong>Architecture Next.js 16 :</strong>Utilisation des dernières fonctionnalités de Next.js pour une navigation fluide et optimisée.</li>
+                            <li><strong>Rendu Hybride (Client/Serveur) :</strong> Optimisation stratégique du chargement des composants pour garantir une hydratation parfaite et éviter les erreurs de rendu initial.</li>
+                            <li><strong>Interface Réactive & Accessible :</strong>Un design fluide s'adaptant à tous les types d'écrans tout en respectant les standards d'accessibilité.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="card3">
+                    <p><i>### Stack Technique</i>
+                        <ul>
+                            <li><strong>Framework :</strong> React.js, Next.js 16 (App Router)</li>
+                            <li><strong>Langage :</strong> TypeScript (Typage strict pour une meilleure maintenabilité)</li>
+                            <li><strong>Librairie UI :</strong> Chakra UI</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>    
+    </section>
+<hr>
+    <section class="port-section2">
+            <h1 class="port-h1">INRAE ECOSYS Project - IA Plant Model</h1>
+    </section>
+    <section class="port-section">
+            <div class="port-image">
+                <video class="port-video" src="video/cursorful-video-1769172792412.mp4" autoplay loop></video>
+            </div> 
+            <div class="cards">
+                <div class="card1">
+                    <h3><strong>FSPM for Crop Mixtures: C/N Dynamics & Multi-Organ Modeling</strong></h3>
+                    <p><i>Timeline</i>: 3 years || 01/09/2022 - 01/09/2025</p>
+                    <p>Development of a plant model focusing on phenological and morphological traits. The model simulates environmental influence on resource acquisition and allocation (Light, C, N) among various shoot and root organs.</p>
+                </div>
 
----
+                <div class="card2">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Plant-Plant Interactions:</strong> Modeling competition and facilitation dynamics within intercropped systems (Crops/Legumes).</li>
+                        <li><strong>Carbon-Nitrogen Coupling:</strong> Simulation of C/N balances integrating symbiotic fixation and long-distance transport between sinks and sources.</li>
+                        <li><strong>Deep Learning Optimization:</strong> Enhancing simulation speed and calibrating complex parameters using neural networks (Surrogate Modeling).</li>
+                        <li><strong>Multi-Scale Architecture:</strong> Explicit 3D topology representation for realistic light interception and root soil exploration.</li>
+                    </ul>
+                </div>
 
-### 🚀 Fonctionnalités Clés
-
-* **Design System Personnalisé :** Intégration complète de **Chakra UI** avec une charte graphique sur mesure (IBM Plex Sans pour la lisibilité technique et Alegreya pour l'élégance).
-* **Architecture Next.js 16 :** Utilisation des dernières fonctionnalités de Next.js pour une navigation fluide et optimisée.
-* **Rendu Hybride (Client/Serveur) :** Optimisation stratégique du chargement des composants pour garantir une hydratation parfaite et éviter les erreurs de rendu initial.
-* **Interface Réactive & Accessible :** Un design fluide s'adaptant à tous les types d'écrans tout en respectant les standards d'accessibilité.
-
----
-
-### 🛠️ Stack Technique
-
-* **Framework :** Next.js 16 (App Router)
-* **Langage :** TypeScript (Typage strict pour une meilleure maintenabilité)
-* **Librairie UI :** Chakra UI
-* **Moteur de Style :** Emotion (CSS-in-JS)
-* **Animations :** Framer Motion
-
----
-
-### 🧠 Défis Techniques & Solutions
-
-* **Défi :** Conflit d'initialisation entre le contexte global de Chakra UI et le cycle de vie de Next.js (Erreur de configuration interne au montage).
-* **Solution :** Mise en œuvre d'un **système de chargement dynamique (`next/dynamic`)** avec désactivation du rendu côté serveur (SSR: false) pour isoler les composants d'interface et garantir une initialisation stable du thème uniquement côté client.
-* **Défi :** Typage complexe des extensions de thèmes propriétaires.
-* **Solution :** Création d'un **Provider personnalisé** utilisant des objets de configuration purs, permettant une flexibilité totale sur les variables CSS sans compromettre la stabilité du système.
-
----
-
-### 🎨 Aperçu visuel
-
-> *[Ici, tu pourrais insérer une capture d'écran de ton bouton ou une petite vidéo montrant l'interaction au survol.]*
-
----
-
-### 🔗 Liens
-
-* **Demo Live :** *[Lien Vercel/Netlify]*
-* **Code Source :** *[Lien GitHub]*
-
----
-
-**Souhaites-tu que je reformule une section spécifique pour l'adapter davantage à un profil de développeur Front-End ou Full-Stack ?**
-                </p>
+                <div class="card3">
+                    <h3>Technical Stack</h3>
+                    <ul>
+                        <li><strong>Modeling Framework:</strong> OpenAlea (PlantGL, MTG, L-Py)</li>
+                        <li><strong>Language:</strong> Python (Scientific Stack: NumPy, SciPy, Pandas)</li>
+                        <li><strong>Deep Learning:</strong> PyTorch or TensorFlow (Optimization & Emulation)</li>
+                        <li><strong>Visualization:</strong> 3D integration via OpenAlea & Matplotlib</li>
+                    </ul>
+                </div>
             </div>
     </section>
 </body>

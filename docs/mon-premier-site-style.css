@@ -484,6 +484,10 @@ a:visited {
   width:300px; height: 300px;
 }
 
+.port-video{
+  width:1000px; 
+}
+
 .port-section{
   /* Active le modèle Flexbox */
     display: flex;
@@ -492,6 +496,18 @@ a:visited {
     /* Définissez une largeur maximale (facultatif) */
     flex-direction: column;
     padding:20px;
-    justify-content: center;
-    text-align: center;
+
+    line-height: 2.5;
+}
+.cards{
+  margin: 20px;
+  padding:20px;
+}
+
+.cards div{
+  padding-top: 20px;
+}
+
+.port-section ul{
+  padding-left: 50px;
 }
