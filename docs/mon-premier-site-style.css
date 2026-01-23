@@ -262,6 +262,10 @@
   padding-top: 50px;
 }
 
+.cv2-body h2{
+  padding-bottom: 20px;
+}
+
 .section1{
   display: flex;
   flex-direction: column;
@@ -300,6 +304,14 @@ section img {
   display: flex;
   flex-direction: column;
   gap:50px;
+}
+
+.container_1 ul{
+  padding-left: 30px;;
+}
+
+.container_2 ul{
+  padding-left: 30px;;
 }
 
 
