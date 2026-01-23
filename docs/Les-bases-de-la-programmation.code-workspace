@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../jquery.ripplesv2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Les-bases-de-la-programmation"
+	}
+}

@@ -107,6 +107,9 @@
   .pp-p{ 
   font-size: 25px;}
 
+  .pp-footer{
+    font-size: 10px;}
+
 .pp-li{
   font-size: 15px;}
 }
@@ -225,85 +228,6 @@
 .pp-li{
   font-size: 10px;}
 }
-
-/* Contenu de la Page Principale pp */
-
-/* #pp-body{
-  background-image: url(images/pexels-brett-sayles-4066118.jpg);
-  background-size: cover;
-	background-position: 50% 0;
-	height: 100%;
-  font-family: "Google Sans Code", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
-} */
-
-/* .pp-img{
-  position: absolute;
-  top: 30%; left:20%;
-  width: 600px;
-  height: 600px;
-} */
-
-/* .truc-a-centrer {
-  position: absolute; 
-  top:50%; left: 50%; 
-  transform: translate(-50%, -50%); 
-} */
-
-/* .pp-p{ position:absolute;
-  top: 10%; left:10%;
-  font-size: 100px;
-  color: #ffffff;
-} */
-
-/* .pp-p-two{ 
-  position:absolute;
-  top: 60%; left:50%;
-  font-size: 80px;
-  color: #ffffff;
-} */
-
-/* .pp-ul{
-  list-style-type: none;
-} */
-
-/* .pp-li{
-   margin-bottom: 20px;
-} */
-
-/* .pp-a {
-  outline: none;
-  text-decoration: none;
-  padding: 2px 1px 0;
-} */
-
-/* .pp-a:link {
-  color: #000000;
-} */
-
-/* .pp-a:visited {
-  color: #000000;
-} */
-/* 
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  order: 1;
-  gap: 80px;
-} */
-
-/* 
-nav a[href] {
-  background: url("images/2445095.svg") no-repeat 100% 0;
-  background-size: 25px 25px;
-  padding-right: 30px;
-}
- */
-
 
 
 /* Contenu du CV version 2 */
@@ -530,121 +454,44 @@ a:visited {
 }}
 
 
-/* __________________________________________________________________*/
-/* Contenu du CV version 1 */
-/* __________________________________________________________________ */
+/* Contenu de la page Portefolio */
 
-/* .cv-body{
+.port-section1{
+  display: flex;
+  flex-direction: column;
+}
+
+.port-body{
   font-family: "Google Sans Code", monospace;
   font-optical-sizing: auto;
   font-style: normal;
-  background-image:url(pexels-pixabay-414659.jpg) ;
-  background-color: rgba(255, 255, 255, 0);
-  background-blend-mode: lighten;
-}  */
+  height: 100vh; width:100%;
+}
 
+.port-h1{
+  text-align: center;
+  padding-top: 50px;
+}
 
-/* .pink {
-    color: rgb(255, 255, 255);
-} */
+.port-image{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
 
-/* img {
-    height: 290px;
-    width: 300px;
-    position:absolute;
-    top: 5%;
-} */
+.port-image img{
+  width:300px; height: 300px;
+}
 
-/* .flexible {
+.port-section{
+  /* Active le modèle Flexbox */
     display: flex;
-    flex-direction:row;
-} */
-
-/* .img-flexible {
-    display:flex;
-    align-items: flex-start;
-    width:350px;  
-} */
-
-/* .text-flexible {
-    flex: 1;
-    padding: 10px;
-    font-size: 20px;
-} */
-
-/* .cv-h{
-  color:#ffffff;
-} */
-
-/* 
-.intro {
-    font-size: 10px;
-    background-color: rgba(44, 39, 45);
-    margin: 5px;
-    padding: 20px;
-    width : 250px;
-    text-align: left;
-    color:#ffffff;
-
-} */
-
-/* .image-ul {
-    list-style-type: none;
-    padding: 0;
+    /* Ajoute un espacement entre l'image et le texte */
+    gap: 80px;
+    /* Définissez une largeur maximale (facultatif) */
+    flex-direction: column;
+    padding:20px;
+    justify-content: center;
+    text-align: center;
 }
-
-.image-ul .image-linkedin {
-    padding-left: 20%;
-    background:url(2446228.svg) no-repeat left top;
-    background-size: 20% 100%; 
-    margin-bottom: 20px;
-}
-
-.image-ul .image-github {
-    padding-left: 20%;
-    background:url(github-logo-6532.svg) no-repeat left top;
-    background-size: 20% 100%; 
-} */
-
-/* 
-.ul{ font-size: 15px;
-
-}
-
-.p{ font-size: 15px;
-
-} */
-
-/* .li{
-  list-style-type: circle;
-} */
-
-/* .border{
-  border-left: 2px solid #ffffff;
-} */
-
-/* .presentation {
-    font-size: 20px;
-    padding: 10px;
-    margin: 10px auto;
-    text-align: justify;
-    } */
-
-/* .conteneur {
-  padding: 10px;
-  display: flex;
-  gap: 10px;
-  text-align:justify;
-} */
-
-/* .conteneur_2 {
-  padding: 10px;
-  display: flex;
-  gap: 150px;
-  text-align:left;
-} */
-
-/* .font-weight {
-  font-weight: 700;
-} */
-
